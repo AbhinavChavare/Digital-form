@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    padding: 10px;
+    background-color: rgb(224, 224, 224);
+}
+.main-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.data-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+input{
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    margin: .3rem 0;
+    outline: none;
+}
+.each-cont{
+    margin: .4rem;
+}
+select{
+    font-size: 0.8rem;
+    margin: 0 .3rem;
+}
+.data-middle-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.para-break{
+    width: 100%;
+    display: block;
+
+}
+.blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.article-box{
+    max-width: 350px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 1rem;
+}
+.demographics-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;  
+}
+.demographics-cont input{
+    width: 30px;
+    outline: none;
+}
+.Ethnicity-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin: .4rem 0;
+
+}
+.Ethnicity-cont h4{
+    text-align: center;
+}
+.verify-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;  
+}
+.verify-cont input{
+    width: 100%;
+    outline: none;
+}
+
+.payment-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.payment-cont input{
+    width: 100px;
+    outline: none;
+}
+
+.payment-text{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    padding: .3rem;
+    background-color: rgb(191, 190, 190);
+    margin: .5rem 0;
+}
+.next-cont{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    padding: .3rem;
+    margin: .5rem 0;
+}
